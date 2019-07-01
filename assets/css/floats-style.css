@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.page {
+	width: 1200px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+.menu {
+	height:100px;
+	background-color: grey;
+	margin: 0 auto;
+	padding: 20px;
+}
+h1	{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+}
+
+h2 {
+	color: white;
+}
+
+.sidebar {
+	height: 500px;
+	width: 200px;
+	background-color: #84411A;
+	float: left;
+	color: white;
+}
+
+.content {
+	height: 500px;
+	width: 1000px;
+	background-color: #D8DBE2;
+	float: left;
+}
+
+.footer {
+	clear: both;
+	/*height: 200px;*/
+	border: 1px solid red;
+	background-color: #D6E9FE;
+}
+
+/*.clear::after {
+	content: "";
+	clear: both;
+	display: block;
+}*/
+
+.clear {
+	overflow: auto;
+}
+
+.column {
+	background-color: #B2D6FF;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: scroll;
+}
+
+.content {
+	padding: 20px;
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+/*.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color: #D6E9FE;
+	background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Mystique11.png/250px-Mystique11.png);
+}*/
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+}
+
+body {
+	background-image: url(https://whynotcuba.com/wp-content/uploads/2018/10/Cuban-Cars-1024x684.jpg)
+}
+
+/*.column {
+	background-image: url(https://cdn.catawiki.net/assets/marketing/uploads-files/45927-3a83f47526e59b8f78599fb94f26b472fc2ce8f6-story_inline_image.jpg);
+}*/
+
+.cars {
+	height: 180px;
+	width: 300px;
+	display: block;
+	text-align: center;
+}
